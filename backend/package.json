@@ -5,10 +5,11 @@
   "type": "module",
   "description": "Express API for TwinMind: Groq Whisper transcription, live suggestions, and chat (SSE).",
   "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
-  },
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "node --watch src/server.js",
+      "build": "cd ../frontend && npm install && npm run build"
+    },
   "engines": {
     "node": ">=18.18.0"
   },
