@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 import transcribeRouter from "./routes/transcribe.js";
 import suggestionsRouter from "./routes/suggestions.js";
 import chatRouter from "./routes/chat.js";
-import errorHandler from "./middleware/errorHandler.js";
+import { errorHandler } from "./middleware/errorHandler.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
