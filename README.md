@@ -1,5 +1,4 @@
-# Twinmind
-# TwinMind — Live Suggestions (Real‑time AI Meeting Copilot)
+# AI Meeting Copilot — Live Suggestions Engine
 
 A 3‑panel web app that **listens to live microphone audio**, transcribes speech, and continuously surfaces **3 high‑value suggestions** (questions, talking points, fact checks, clarifications). Clicking a suggestion opens a **detailed answer** in a streaming chat panel.
 
